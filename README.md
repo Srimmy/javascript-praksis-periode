@@ -8,10 +8,10 @@ Ting som kan være nyttig å huske
     - formEl = getelement -> formeEl.navn.value er input value til navnet, funker også for radio knapper
     - checkboxer må kjøres i for loop
     - required attribute
-* onsdag
-  - split for å sende 2 values
-  - objekter
-  - for(let i of array)
-  - switch case
+  * onsdag
+      - split for å sende 2 values
+      - objekter
+      - for(let i of array)
+      - switch case
 
  
