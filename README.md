@@ -13,5 +13,9 @@ Ting som kan være nyttig å huske
       - objekter
       - for(let i of array)
       - switch case
+  - Torsdag
+      - Skriv flere funksjoner i koden ( en sammenhengende kode skal ikke være lenger enn 1 side)
+      - Ikke referer til html tags i kommentar, velg heller hva tittelen er.
+      - ~~Checkboxen er krysset~~ -> bruker har valgt abonoment
 
  
