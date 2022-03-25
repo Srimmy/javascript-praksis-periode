@@ -4,10 +4,11 @@ let outputEl = document.getElementById("output");
 
 formEl.addEventListener("submit", function (e) {
     e.preventDefault();
-    if(formEl.yDiameter.value > formEl.iDiameter.value) {
+    if(parseInt(formEl.yDiameter.value) > parseInt(formEl.iDiameter.value)) {
         //gir output
         regnAntallPoser(cmTilLiter(regnRørVolumn()), rørSekk.liter, rørSekk.kost);
     } else {
+        console.log(formEl.yDiameter.value, formEl.iDiameter.value);
         //feilmelding
         outputEl.innerHTML = "Ytre diameter må være større enn indre diameter."
     }
@@ -27,6 +28,7 @@ function cmTilLiter(kubikkCm) {
 function regnAntallPoser(volum, liter, pris) {
     //regner antall poser
     poser = Math.ceil(volum/liter);
+    console.log(volum);
     //output
     switch (poser) {
         case 1:
